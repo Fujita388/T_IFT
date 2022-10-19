@@ -1,0 +1,9 @@
+integrate.py
+*.dat
+*.lammpstrj
+*.lammps
+*.out
+*.atoms
+venv
+result
+kikuchi_original.*
