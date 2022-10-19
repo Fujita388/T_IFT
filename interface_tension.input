@@ -29,4 +29,4 @@ fix binave all ave/chunk 1 100000 100000 layers density/mass temp c_stress[*] fi
 dump id all custom 100000 interface_tension.lammpstrj id type x y z vx vy vz
 
 thermo 5000
-run 3000000
+run 5000000

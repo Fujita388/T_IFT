@@ -4,7 +4,7 @@
 #SBATCH -N 16
 #SBATCH -n 128
 #SBATCH -c 16
-#SBATCH -t 05:00:00
+#SBATCH -t 20:00:00
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END
 #SBATCH --mail-user=naofuji.1220@gmail.com
