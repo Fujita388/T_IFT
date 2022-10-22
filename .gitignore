@@ -4,6 +4,5 @@ integrate.py
 *.lammps
 *.out
 *.atoms
-venv
 result
 kikuchi_original.*

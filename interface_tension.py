@@ -5,9 +5,9 @@ import sys
 import numpy as np
 
 with open("stress_tensor.dat", "r") as f:
-    lines =f.readlines()
+    lines = f.readlines()
 ITF = []
-for i in range(50):
+for i in range(100):
     x_lis=[]
     y_lis=[]
     y = []
