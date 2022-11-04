@@ -59,10 +59,10 @@ def save_file(filename, atoms):
         f.write("Atoms\n\n")
         for i, a in enumerate(atoms):
             f.write("{} {} {} {} {}\n".format(i+1, a.type, a.x, a.y, a.z))
-        f.write("\n")
-        f.write("Velocities\n\n")
-        for i, a in enumerate(atoms):
-            f.write("{} {} {} {}\n".format(i+1, a.vx, a.vy, a.vz))
+#        f.write("\n")
+#        f.write("Velocities\n\n")
+#        for i, a in enumerate(atoms):
+#            f.write("{} {} {} {}\n".format(i+1, a.vx, a.vy, a.vz))
 
 
 atoms = []
