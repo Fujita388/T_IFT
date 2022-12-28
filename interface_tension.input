@@ -13,7 +13,7 @@ pair_coeff 1 1 1.0 1.0 3.0
 neighbor 0.3 bin
 neigh_modify every 20 delay 0 check no
 
-velocity all create 0.7 0.25 units box mom yes
+velocity all create 0.7 25 units box mom yes
 
 fix 1 all nvt temp 0.7 0.7 0.1
 
